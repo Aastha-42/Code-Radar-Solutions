@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+int main()
+{
     char a;
     char c;
     int b;
@@ -7,6 +8,6 @@ int main() {
     scanf("%s",&c);
     printf("Name: %s\n",a);
     printf("Age: %d\n", b);
-    prntf("Hobby: %s", c);
+    printf("Hobby: %s", c);
     return 0;
 }
