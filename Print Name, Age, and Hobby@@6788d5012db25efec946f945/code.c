@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    char a;
-    char c;
+    char a,c;
     int b;
     scanf("%s %d",&a,&b);
     scanf("%s",&c);
