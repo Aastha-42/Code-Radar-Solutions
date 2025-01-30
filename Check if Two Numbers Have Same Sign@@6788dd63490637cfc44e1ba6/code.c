@@ -5,9 +5,9 @@ int main() {
     if (a>0 && b>0){
         printf("Same Sign");
     }else if(a<0 && b<0){
-        printf("Different Sign");
+        printf("Same Sign");
     }else{
-        printf("Invalid Input");
+        printf("Different Sign");
     }
     return 0;
 }
