@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d", &a);
-    if(a>=90 && a<101){
+    if(a>=90){
         printf("A");
     }else if(a>=80 && a<90){
         printf("B");
@@ -10,9 +10,9 @@ int main() {
         printf("C");
     }else if(a>=60 && a<70){
         printf("D");
-    }else if(a<60 && a>0){
+    }else if(a<60){
         printf("E");
-    }else{printf("Invalid input")}
+    }
     }
     return 0;
 }
