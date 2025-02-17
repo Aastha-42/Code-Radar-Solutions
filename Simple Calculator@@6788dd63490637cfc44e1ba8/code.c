@@ -17,7 +17,7 @@ int main() {
         if (b!=0)
         printf("%f",a/b);
         else
-        printf("error")
+        printf("error");
         break;
         default:
         printf("Invalid Input");
