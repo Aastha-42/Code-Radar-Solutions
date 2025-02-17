@@ -14,7 +14,10 @@ int main() {
         printf("%f",a*b);
         break;
         case '/':
+        if (b!=0)
         printf("%f",a/b);
+        else
+        printf("error")
         break;
         default:
         printf("Invalid Input");
