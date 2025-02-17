@@ -20,6 +20,7 @@ int main() {
         printf("error");
         break;
         default:
-        printf("Invalid Input");
+        printf("error");
     }
+    return 0;
 }
