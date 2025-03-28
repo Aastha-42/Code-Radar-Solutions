@@ -1,8 +1,11 @@
-#include <stdio.h>
-int main() {
-    int i=5;
-    while (i>=0){
-        printf("%c \n", *);
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    for(int i=a;i>0;i--){
+       for(int j=0;j<i;j++){
+        printf("* ");
+    }printf("\n") ;
     }
     return 0;
 }
