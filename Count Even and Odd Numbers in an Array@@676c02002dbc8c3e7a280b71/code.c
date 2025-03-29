@@ -10,15 +10,14 @@ int main(){
     int total_even=0;
     for(int i=0;i<len;i++){
         if(arr[i]%2==0){
-            total_even++;
+            total_even+=1;
         }
     }
     int total_odd=0;
     for(int i=0;i<len;i++){
         if(arr[i]%2!=0){
-            total_odd++;
+            total_odd+=1;
         }
     }
-    printf("%d ", total_even);
-    printf("%d ", total_odd);
+    printf("%d %d ", total_even, total_odd);
 }
