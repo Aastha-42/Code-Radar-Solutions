@@ -13,7 +13,7 @@ int main(){
             total_even++;
         }
     }
-    total_odd=0;
+    int total_odd=0;
     for(int i=0;i<len;i++){
         if(arr[i]%2!=0){
             total_odd++;
