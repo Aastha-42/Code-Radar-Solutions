@@ -5,7 +5,7 @@ int main(){
     scanf("%d", &len);
     int arr[len];
     for(int i=0;i<len;i++){
-        scanf("%d", arr[i]);  
+        scanf("%d", &arr[i]);  
     }
     int total_even=0;
     int total_odd=0;
@@ -16,5 +16,5 @@ int main(){
             total_odd+=1;
         }
     }
-    printf("%d %d ", total_even, total_odd);
+    printf("%d %d", total_even, total_odd);
 }
